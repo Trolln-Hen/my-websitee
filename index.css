@@ -1,15 +1,1 @@
-<a href="about.html">About Me</a>
-<link rel="stylesheet" href="style.css">
-<button onclick="hello()">Click me</button>
-<br><br>
-<button id="openPhotoBtn">Open Photo</button>
 
-<script>
-function hello(){
-	alert("Welcome to my website!");
-}
-// Open photo button handler
-document.getElementById('openPhotoBtn').onclick = function() {
-	window.open('https://images.unsplash.com/photo-1506744038136-46273834b3fb', '_blank');
-}
-</script>
